@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 3000;
 
 const io = new Server(server, {
   cors: {
-    origin: "https://tic-tac-toe-xo-mania.netlify.app/",
+    origin: "https://tic-tac-toe-xo-mania.netlify.app",
   },
 });
 
